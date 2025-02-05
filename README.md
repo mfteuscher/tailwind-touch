@@ -1,5 +1,7 @@
 # Tailwind Touch Plugin
 
+This is a fork of `tailwindcss-touch`, upgraded due to lack of maintenance on the original.
+
 This plugin adds a collection of variants to allow fine grain control over how elements appear on touch and non touch devices, CSS Tricks does a great job of detailing how the underlying media queries work you can read more about this here: https://css-tricks.com/touch-devices-not-judged-size.
 
 ## Installation
