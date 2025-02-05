@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin 'tailwind-touch';
+@plugin '@tailwindcss/typography';
+
+html {
+  @apply dark:bg-zinc-800 dark:text-white;
+}
