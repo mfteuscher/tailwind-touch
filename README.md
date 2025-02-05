@@ -8,18 +8,31 @@ This plugin adds a collection of variants to allow fine grain control over how e
 
 Add this plugin to your project:
 
+#### Install via npm, yarn, pnpm, bun, etc.
 ```bash
-# Install via npm
-npm install --save-dev tailwindcss-touch
+npm install -D tailwind-touch
+```
+```bash
+yarn add -D tailwind-touch
+```
+```bash
+pnpm add -D tailwind-touch
+```
+```bash
+bun add -D tailwind-touch
 ```
 
 ## Usage
 
-Add the tailwindcss-touch plugin to your plugins key in your tailwind.js config file. 
+Add the tailwindcss-touch plugin to your css file, or tailwind.config.js if you're still using the js config. 
+
+```css
+@plugin 'tailwind-touch'
+```
 
 ```js
 plugins: [
-    require('tailwindcss-touch')(),
+    require('tailwind-touch'),
 ],
 
 ```
@@ -43,17 +56,10 @@ The following variants are currently available:
 @media (hover: none) { ... }
 ```
 
-Enabling a variant on a module is just like enabling any other variant, locate the modules object and add the variants to the module you would like to enable touch capabilites for:
 
-```js
-modules: {
-    shadows: ['responsive', 'hover', 'focus', 'hover-hover', 'hover-none'],
-},
-```
-
-Once the variant is enabled, using it is just like using any other variant, for example if you have a div which you would like to add a small shadow on touch enabled devices but a large shadow on non touch devices you would do it like so:
+Once the plugin is installed and added to the config, you can use it as you would any other media query modifier in Tailwind
 ```html
-<div class="hover-none:shadow-lg hover-hover:shadow">...</div>
+<div class="pointer-coarse:hidden pointer-fine:flex">...</div>
 ```
 
 ## Credits
