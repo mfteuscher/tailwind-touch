@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/mfteuscher/tailwindcss-touch#readme",
   "peerDependencies": {
-    "tailwindcss": "^2"
+    "tailwindcss": ">=2"
   },
   "devDependencies": {
     "prettier": "^3.4.2",
