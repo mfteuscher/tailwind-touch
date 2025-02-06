@@ -1,49 +1,49 @@
 {
-    "name": "tailwind-touch",
-    "version": "1.0.0",
-    "description": "A collection of touch variants for the tailwindcss framework",
-    "main": "index.js",
-    "files": [
-        "index.js",
-        "index.d.ts"
-    ],
-    "scripts": {
-        "format": "prettier --write --ignore-unknown **/*",
-        "dev": "turbo run dev"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mfteuscher/tailwindcss-touch.git"
-    },
-    "keywords": [
-        "tailwind",
-        "tailwindcss",
-        "plugin",
-        "tailwindcss-plugin"
-    ],
-    "author": "mfteuscher",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/mfteuscher/tailwindcss-touch/issues"
-    },
-    "homepage": "https://github.com/mfteuscher/tailwindcss-touch#readme",
-    "peerDependencies": {
-        "tailwindcss": "^4.0.3"
-    },
-    "devDependencies": {
-        "prettier": "^3.4.2",
-        "prettier-plugin-tailwindcss": "^0.6.11",
-        "turbo": "^2.4.0"
-    },
-    "peerDependenciesMeta": {
-        "tailwindcss": {
-            "optional": true
-        }
-    },
-    "packageManager": "pnpm@10.2.0",
-    "prettier": {
-        "plugins": [
-            "prettier-plugin-tailwindcss"
-        ]
+  "name": "tailwind-touch",
+  "version": "1.0.0",
+  "description": "A collection of touch variants for the tailwindcss framework",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "format": "prettier --write --ignore-unknown **/*",
+    "dev": "turbo run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfteuscher/tailwindcss-touch.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "plugin",
+    "tailwindcss-plugin"
+  ],
+  "author": "mfteuscher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfteuscher/tailwindcss-touch/issues"
+  },
+  "homepage": "https://github.com/mfteuscher/tailwindcss-touch#readme",
+  "peerDependencies": {
+    "tailwindcss": "^2"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "turbo": "^2.4.0"
+  },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
     }
+  },
+  "packageManager": "pnpm@10.2.0",
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  }
 }
